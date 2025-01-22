@@ -48,7 +48,7 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-extrabold mb-4">My Projects</h1>
           <p className="text-lg text-gray-300">
-            Here are some of the projects I’ve worked on, showcasing my skills and expertise in web development.
+            Here are some of the projects I’ve worked on, showcasing my skills and expertise in development.
           </p>
         </div>
 

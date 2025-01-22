@@ -3,7 +3,7 @@ import myPhoto from '../assets/personal_photo.jpg'; // Adjust the path to your i
 
 const About = () => (
   <div
-    className="relative min-h-screen bg-cover bg-center"
+    className="min-h-screen flex items-center justify-center bg-cover bg-center"
     style={{
       backgroundImage: "url('https://via.placeholder.com/1920x1080')", // Replace with your background image
     }}

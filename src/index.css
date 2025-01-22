@@ -20,3 +20,7 @@ code {
   background-image: url('https://www.heropatterns.com/path/to/pattern.svg');
   background-repeat: repeat;
 }
+
+.transition-height {
+  transition: height 0.3s ease-in-out;
+}
