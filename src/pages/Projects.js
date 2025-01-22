@@ -5,29 +5,29 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'React Portfolio Website',
-      description: 'A personal portfolio website built using React and Tailwind CSS, showcasing my skills and projects.',
-      image: 'https://files.oaiusercontent.com/file-VtUPMvefuYvJW5j9E2w3mo?se=2025-01-22T17%3A05%3A29Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=v/Bin/WpJh1b63EH4cUOyisLzB7c6n37KQDLfFrJBrM%3D', // Replace with project image URL
+      title: 'FluxBridge',
+      description: 'A publish-subscribe message broker build on top of RSocket protocol. It can be used in distributed systems, such as microservices and event-driven architectures.',
+      image: 'https://github.com/howk829/FluxBridge/blob/master/fluxbridge.png?raw=true', // Replace with project image URL
       links: {
-        github: 'https://github.com/your-repo',
+        github: 'https://github.com/howk829/FluxBridge',
       },
     },
     {
       id: 2,
-      title: 'E-commerce Store',
-      description: 'A fully functional e-commerce platform with cart and payment integrations using Stripe.',
-      image: 'https://github.com/howk829/FluxBridge/blob/master/fluxbridge.png?raw=true', // Replace with project image URL
+      title: 'React Portfolio Website',
+      description: 'A personal portfolio website built using React and Tailwind CSS, showcasing my skills and projects.',
+      image: 'https://github.com/howk829/personal-website/blob/main/screenshots.png?raw=true', // Replace with project image URL
       links: {
-        github: 'https://github.com/your-repo',
+        github: 'https://github.com/howk829/personal-website',
       },
     },
     {
       id: 3,
-      title: 'Blog Platform',
-      description: 'A blog platform with authentication and a rich text editor built using Node.js and MongoDB.',
+      title: 'Instagram Downloader',
+      description: 'A Chrome Extension allows you to download photos from intagram just by a few clicks.',
       image: 'https://petapixel.com/assets/uploads/2018/04/instagramdownloadfeatt.jpg', // Replace with project image URL
       links: {
-        github: 'https://github.com/your-repo',
+        github: 'https://github.com/howk829/ig-downloader',
       },
     },
   ];
@@ -54,35 +54,36 @@ const Projects = () => {
 
         {/* Project Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
-            <div
-              key={project.id}
-              className="bg-white bg-opacity-70 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
-            >
-              {/* Project Image */}
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
-              {/* Project Details */}
-              <div className="p-6 text-gray-800">
-                <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
-                <p className="text-gray-600 mb-4">{project.description}</p>
-                <div>
-                  <a
-                    href={project.links.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-4 py-2 bg-gray-700 text-white rounded shadow hover:bg-gray-800 transition"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
+        {projects.map((project) => (
+          <div
+            key={project.id}
+            className="bg-white bg-opacity-70 rounded-lg shadow-lg flex flex-col justify-between p-6 text-gray-800"
+          >
+            {/* Project Image */}
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-48 object-cover mb-4"
+            />
+            {/* Project Details */}
+            <div className="flex-grow">
+              <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
+              <p className="text-gray-600 mb-4">{project.description}</p>
             </div>
-          ))}
-        </div>
+            {/* GitHub Button */}
+            <div className="mt-4">
+              <a
+                href={project.links.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-4 py-2 bg-gray-700 text-white rounded shadow hover:bg-gray-800 transition"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
       </div>
     </div>
   );

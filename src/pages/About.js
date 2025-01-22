@@ -1,3 +1,6 @@
+import myPhoto from '../assets/personal_photo.jpg'; // Adjust the path to your image
+
+
 const About = () => (
   <div
     className="relative min-h-screen bg-cover bg-center"
@@ -22,7 +25,11 @@ const About = () => (
         <div className="flex justify-center">
           <div className="w-64 h-64 rounded-full bg-gray-600 flex items-center justify-center text-gray-400 text-3xl">
             {/* Placeholder for Photo */}
-            Photo
+            <img
+            src={myPhoto}
+            alt="My Photo"
+            className="object-cover w-full h-full"
+          />
           </div>
         </div>
 
