@@ -24,7 +24,7 @@ const Navbar = () => {
           <li><Link to="/" className="hover:text-blue-400">Home</Link></li>
           <li><Link to="/about" className="hover:text-blue-400">About</Link></li>
           <li><Link to="/projects" className="hover:text-blue-400">Projects</Link></li>
-          <li><Link to="/blog" className="hover:text-blue-400">Blog</Link></li>
+          {/* <li><Link to="/blog" className="hover:text-blue-400">Blog</Link></li> */}
           <li><Link to="/contact" className="hover:text-blue-400">Contact</Link></li>
         </ul>
       </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
           <li><Link to="/" className="hover:text-blue-400" onClick={toggleMenu}>Home</Link></li>
           <li><Link to="/about" className="hover:text-blue-400" onClick={toggleMenu}>About</Link></li>
           <li><Link to="/projects" className="hover:text-blue-400" onClick={toggleMenu}>Projects</Link></li>
-          <li><Link to="/blog" className="hover:text-blue-400" onClick={toggleMenu}>Blog</Link></li>
+          {/* <li><Link to="/blog" className="hover:text-blue-400" onClick={toggleMenu}>Blog</Link></li> */}
           <li><Link to="/contact" className="hover:text-blue-400" onClick={toggleMenu}>Contact</Link></li>
         </ul>
       )}
