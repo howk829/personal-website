@@ -15,7 +15,7 @@ const Projects = () => {
     {
       id: 2,
       title: 'Crypto-portfolio-tracker',
-      description: 'The Crypto Tracker is a web-based application designed to help users monitor their cryptocurrency portfolio, track live market trends, and manage transactions seamlessly',
+      description: 'The Crypto Tracker is a web-based application designed to help users monitor their cryptocurrency portfolio, track live market trends, and manage transactions seamlessly.',
       image: 'https://github.com/howk829/crypto-portfolio-tracker/blob/main/crypto-portfolio.png?raw=true', // Replace with project image URL
       links: {
         github: 'https://github.com/howk829/crypto-portfolio-tracker',
@@ -23,20 +23,20 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'FluxBridge',
-      description: 'A publish-subscribe message broker build on top of RSocket protocol. It can be used in distributed systems, such as microservices and event-driven architectures.',
-      image: 'https://github.com/howk829/FluxBridge/blob/master/fluxbridge.png?raw=true', // Replace with project image URL
+      title: 'Spring Distributed Cache Example',
+      description: 'This repository demonstrates how to implement a distributed caching solution within Spring Framework, without using external solution like Redis or Memcached.',
+      image: 'https://github.com/tommyho-formshk/spring-distributed-cache-example/blob/main/consistent_multisite.png?raw=true', // Replace with project image URL
       links: {
-        github: 'https://github.com/howk829/FluxBridge',
+        github: 'https://github.com/tommyho-formshk/spring-distributed-cache-example',
       },
     },
     {
       id: 4,
-      title: 'FluxBridge',
-      description: 'A publish-subscribe message broker build on top of RSocket protocol. It can be used in distributed systems, such as microservices and event-driven architectures.',
-      image: 'https://github.com/howk829/FluxBridge/blob/master/fluxbridge.png?raw=true', // Replace with project image URL
+      title: 'Spring Distributed Lock Example',
+      description: 'This repository demonstrates how to use ShedLock in a Spring application to ensure that scheduled tasks are executed only once in a distributed system.',
+      image: 'https://miro.medium.com/v2/resize:fit:870/1*kKb_8FqxgY9wRHABBS0xoQ.png', // Replace with project image URL
       links: {
-        github: 'https://github.com/howk829/FluxBridge',
+        github: 'https://github.com/tommyho-formshk/spring-shedlock-example',
       },
     },
     {
