@@ -11,7 +11,7 @@ const About = () => (
     <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-800 to-gray-900 bg-opacity-70"></div>
 
     {/* Content */}
-    <div className="relative z-10 flex flex-col items-center text-white px-6 py-16 max-w-screen-lg mx-auto">
+    <div className="relative z-10 flex flex-col  items-center text-white px-6 py-16 max-w-screen-lg mx-auto">
       {/* Heading Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4">About Me</h1>

@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-900 text-white fixed top-0 left-0 w-full z-50 shadow-lg">
       {/* Navbar Container */}
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between px-6 lg:px-8 py-3">
+      <div className=" mx-auto flex items-center justify-between px-6 lg:px-8 py-3">
         {/* Logo */}
         <div className="text-2xl font-bold">
           <Link to="/">My Portfolio</Link>

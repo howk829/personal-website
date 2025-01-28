@@ -14,6 +14,33 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: 'Crypto-portfolio-tracker',
+      description: 'The Crypto Tracker is a web-based application designed to help users monitor their cryptocurrency portfolio, track live market trends, and manage transactions seamlessly',
+      image: 'https://github.com/howk829/crypto-portfolio-tracker/blob/main/crypto-portfolio.png?raw=true', // Replace with project image URL
+      links: {
+        github: 'https://github.com/howk829/crypto-portfolio-tracker',
+      },
+    },
+    {
+      id: 3,
+      title: 'FluxBridge',
+      description: 'A publish-subscribe message broker build on top of RSocket protocol. It can be used in distributed systems, such as microservices and event-driven architectures.',
+      image: 'https://github.com/howk829/FluxBridge/blob/master/fluxbridge.png?raw=true', // Replace with project image URL
+      links: {
+        github: 'https://github.com/howk829/FluxBridge',
+      },
+    },
+    {
+      id: 4,
+      title: 'FluxBridge',
+      description: 'A publish-subscribe message broker build on top of RSocket protocol. It can be used in distributed systems, such as microservices and event-driven architectures.',
+      image: 'https://github.com/howk829/FluxBridge/blob/master/fluxbridge.png?raw=true', // Replace with project image URL
+      links: {
+        github: 'https://github.com/howk829/FluxBridge',
+      },
+    },
+    {
+      id: 5,
       title: 'React Portfolio Website',
       description: 'A personal portfolio website built using React and Tailwind CSS, showcasing my skills and projects.',
       image: 'https://github.com/howk829/personal-website/blob/main/screenshots.png?raw=true', // Replace with project image URL
@@ -22,7 +49,7 @@ const Projects = () => {
       },
     },
     {
-      id: 3,
+      id: 6,
       title: 'Instagram Downloader',
       description: 'A Chrome Extension allows you to download photos from intagram just by a few clicks.',
       image: 'https://petapixel.com/assets/uploads/2018/04/instagramdownloadfeatt.jpg', // Replace with project image URL
